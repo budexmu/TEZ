@@ -17,13 +17,19 @@
         android:layout_width="match_parent"
         android:layout_height="421dp"
         app:srcCompat="@mipmap/ic_launcher" />
-
-    <Button
-        android:id="@+id/button"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="ürün adı"
+        android:textAlignment="center"
+        android:textColor="#560027"/>
 
-         />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/material_button"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ffc1e3"
+        android:text=" button_label_enabled" />
 
 </LinearLayout>

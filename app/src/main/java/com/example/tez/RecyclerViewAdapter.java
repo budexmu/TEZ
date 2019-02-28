@@ -2,6 +2,7 @@ package com.example.tez;
 
 
 import android.content.Context;
+import android.graphics.Color;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -47,10 +48,10 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public void onBindViewHolder(ViewHolder holder, final int position) {
         Log.d(TAG, "onBindViewHolder: called");
 
-        Picasso.get().load(mImagesUrls.get(position)).resize(50,50).centerCrop()
+       /* Picasso.get().load(mImagesUrls.get(position)).resize(50,50).centerCrop()
                 .into(holder.imageView);
-
-        //Glide.with(mContext).load(mImagesUrls.get(position)).into(holder.imageView);
+*/
+        Glide.with(mContext).load(mImagesUrls.get(position)).into(holder.imageView);
 
         holder.productName.setText(mImageNames.get(position));
         holder.productPrice.setText(mPrices.get(position));
