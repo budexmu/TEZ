@@ -21,15 +21,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ürün adı"
-        android:textAlignment="center"
-        android:textColor="#560027"/>
+        android:textAlignment="center"/>
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/material_button"
-        style="@style/Widget.MaterialComponents.Button.TextButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#ffc1e3"
-        android:text=" button_label_enabled" />
-
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/button"
+    android:text="ileri"/>
 </LinearLayout>

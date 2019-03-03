@@ -29,7 +29,7 @@ public class ValidationScreen_Activity extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(ValidationScreen_Activity.this,ProductLİstActivity.class);
+                Intent intent=new Intent(ValidationScreen_Activity.this,Sample1Activity.class);
                 startActivity(intent);
             }
         });
