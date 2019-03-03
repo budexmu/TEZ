@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">library</string>
+    <declare-styleable name="Skeleton">
+
+        <!--=====================================================================================-->
+        <!--SkeletonGroup Attributes-->
+
+        <attr format="boolean" name="SK_autoStartAnimation"/>
+        <attr format="boolean" name="SK_isShowSkeleton"/>
+        <attr format="boolean" name="SK_isHoldTouchEventsFromChildren"/>
+
+        <!--color-->
+        <attr format="color" name="SK_backgroundMainColor"/>
+        <attr format="color" name="SK_BackgroundViewsColor"/>
+        <attr format="color" name="SK_highLightColor"/>
+
+        <!--animation-->
+        <attr format="boolean" name="SK_animationAutoStart"/>
+        <attr format="integer" name="SK_animationDuration"/>
+        <attr format="integer" name="SK_animationDirection">
+            <enum name="LTR" value="1"/><!--left to right-->
+            <enum name="RTL" value="2"/><!--right to left-->
+            <enum name="TTB" value="3"/><!--top to bottom-->
+            <enum name="BTT" value="4"/><!--bottom to top-->
+        </attr>
+        <attr format="integer" name="SK_animationNormalType">
+            <enum name="none" value="0"/>
+            <enum name="alpha" value="1"/>
+            <enum name="gradient" value="2"/>
+        </attr>
+        <attr format="integer" name="SK_animationFinishType">
+            <enum name="none" value="0"/>
+            <enum name="alpha" value="1"/>
+            <enum name="gradient" value="2"/>
+        </attr>
+
+        <!--=====================================================================================-->
+        <!--=====================================================================================-->
+        <!--SkeletonView Attributes-->
+
+        <!--cornerRadius-->
+        <attr format="dimension" name="SK_cornerRadius"/>
+        <attr format="dimension" name="SK_cornerRadiusTopLeft"/>
+        <attr format="dimension" name="SK_cornerRadiusTopRight"/>
+        <attr format="dimension" name="SK_cornerRadiusBottomLeft"/>
+        <attr format="dimension" name="SK_cornerRadiusBottomLRight"/>
+
+        <!--padding-->
+        <attr format="dimension" name="SK_padding"/>
+        <attr format="dimension" name="SK_paddingTop"/>
+        <attr format="dimension" name="SK_paddingRight"/>
+        <attr format="dimension" name="SK_paddingLeft"/>
+        <attr format="dimension" name="SK_paddingBottom"/>
+
+        <!--shape type-->
+        <attr format="integer" name="SK_shapeType">
+            <enum name="rect" value="1"/>
+            <enum name="oval" value="2"/>
+            <enum name="text" value="3"/>
+        </attr>
+
+        <!--special attrs shape type text-->
+        <attr format="integer" name="SK_textLineNumber"/> <!--value zero means auto line by height view-->
+        <attr format="integer" name="SK_textLineLastWidth">
+            <enum name="full" value="1"/>
+            <enum name="threeQuarters" value="2"/>
+            <enum name="half" value="3"/>
+            <enum name="quarter" value="4"/>
+        </attr>
+        <attr format="dimension" name="SK_textLineHeight"/>
+        <attr format="dimension" name="SK_textLineSpaceVertical"/>
+        <!--=====================================================================================-->
+
+    </declare-styleable>
+</resources>

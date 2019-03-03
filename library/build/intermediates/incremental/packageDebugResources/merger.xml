@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/demet/Desktop/Tez/library/src/main/res"/><source path="/home/demet/Desktop/Tez/library/build/generated/res/rs/debug"/><source path="/home/demet/Desktop/Tez/library/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/demet/Desktop/Tez/library/src/main/res"><file path="/home/demet/Desktop/Tez/library/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">library</string></file><file path="/home/demet/Desktop/Tez/library/src/main/res/values/attrs.xml" qualifiers=""><declare-styleable name="Skeleton">
+
+        
+        
+
+        <attr format="boolean" name="SK_autoStartAnimation"/>
+        <attr format="boolean" name="SK_isShowSkeleton"/>
+        <attr format="boolean" name="SK_isHoldTouchEventsFromChildren"/>
+
+        
+        <attr format="color" name="SK_backgroundMainColor"/>
+        <attr format="color" name="SK_BackgroundViewsColor"/>
+        <attr format="color" name="SK_highLightColor"/>
+
+        
+        <attr format="boolean" name="SK_animationAutoStart"/>
+        <attr format="integer" name="SK_animationDuration"/>
+        <attr format="integer" name="SK_animationDirection">
+            <enum name="LTR" value="1"/>
+            <enum name="RTL" value="2"/>
+            <enum name="TTB" value="3"/>
+            <enum name="BTT" value="4"/>
+        </attr>
+        <attr format="integer" name="SK_animationNormalType">
+            <enum name="none" value="0"/>
+            <enum name="alpha" value="1"/>
+            <enum name="gradient" value="2"/>
+        </attr>
+        <attr format="integer" name="SK_animationFinishType">
+            <enum name="none" value="0"/>
+            <enum name="alpha" value="1"/>
+            <enum name="gradient" value="2"/>
+        </attr>
+
+        
+        
+        
+
+        
+        <attr format="dimension" name="SK_cornerRadius"/>
+        <attr format="dimension" name="SK_cornerRadiusTopLeft"/>
+        <attr format="dimension" name="SK_cornerRadiusTopRight"/>
+        <attr format="dimension" name="SK_cornerRadiusBottomLeft"/>
+        <attr format="dimension" name="SK_cornerRadiusBottomLRight"/>
+
+        
+        <attr format="dimension" name="SK_padding"/>
+        <attr format="dimension" name="SK_paddingTop"/>
+        <attr format="dimension" name="SK_paddingRight"/>
+        <attr format="dimension" name="SK_paddingLeft"/>
+        <attr format="dimension" name="SK_paddingBottom"/>
+
+        
+        <attr format="integer" name="SK_shapeType">
+            <enum name="rect" value="1"/>
+            <enum name="oval" value="2"/>
+            <enum name="text" value="3"/>
+        </attr>
+
+        
+        <attr format="integer" name="SK_textLineNumber"/> 
+        <attr format="integer" name="SK_textLineLastWidth">
+            <enum name="full" value="1"/>
+            <enum name="threeQuarters" value="2"/>
+            <enum name="half" value="3"/>
+            <enum name="quarter" value="4"/>
+        </attr>
+        <attr format="dimension" name="SK_textLineHeight"/>
+        <attr format="dimension" name="SK_textLineSpaceVertical"/>
+        
+
+    </declare-styleable></file></source><source path="/home/demet/Desktop/Tez/library/build/generated/res/rs/debug"/><source path="/home/demet/Desktop/Tez/library/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/demet/Desktop/Tez/library/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/home/demet/Desktop/Tez/library/src/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="Skeleton">
+
+        
+        
+
+        <attr format="boolean" name="SK_autoStartAnimation"/>
+        <attr format="boolean" name="SK_isShowSkeleton"/>
+        <attr format="boolean" name="SK_isHoldTouchEventsFromChildren"/>
+
+        
+        <attr format="color" name="SK_backgroundMainColor"/>
+        <attr format="color" name="SK_BackgroundViewsColor"/>
+        <attr format="color" name="SK_highLightColor"/>
+
+        
+        <attr format="boolean" name="SK_animationAutoStart"/>
+        <attr format="integer" name="SK_animationDuration"/>
+        <attr format="integer" name="SK_animationDirection">
+            <enum name="LTR" value="1"/>
+            <enum name="RTL" value="2"/>
+            <enum name="TTB" value="3"/>
+            <enum name="BTT" value="4"/>
+        </attr>
+        <attr format="integer" name="SK_animationNormalType">
+            <enum name="none" value="0"/>
+            <enum name="alpha" value="1"/>
+            <enum name="gradient" value="2"/>
+        </attr>
+        <attr format="integer" name="SK_animationFinishType">
+            <enum name="none" value="0"/>
+            <enum name="alpha" value="1"/>
+            <enum name="gradient" value="2"/>
+        </attr>
+
+        
+        
+        
+
+        
+        <attr format="dimension" name="SK_cornerRadius"/>
+        <attr format="dimension" name="SK_cornerRadiusTopLeft"/>
+        <attr format="dimension" name="SK_cornerRadiusTopRight"/>
+        <attr format="dimension" name="SK_cornerRadiusBottomLeft"/>
+        <attr format="dimension" name="SK_cornerRadiusBottomLRight"/>
+
+        
+        <attr format="dimension" name="SK_padding"/>
+        <attr format="dimension" name="SK_paddingTop"/>
+        <attr format="dimension" name="SK_paddingRight"/>
+        <attr format="dimension" name="SK_paddingLeft"/>
+        <attr format="dimension" name="SK_paddingBottom"/>
+
+        
+        <attr format="integer" name="SK_shapeType">
+            <enum name="rect" value="1"/>
+            <enum name="oval" value="2"/>
+            <enum name="text" value="3"/>
+        </attr>
+
+        
+        <attr format="integer" name="SK_textLineNumber"/> 
+        <attr format="integer" name="SK_textLineLastWidth">
+            <enum name="full" value="1"/>
+            <enum name="threeQuarters" value="2"/>
+            <enum name="half" value="3"/>
+            <enum name="quarter" value="4"/>
+        </attr>
+        <attr format="dimension" name="SK_textLineHeight"/>
+        <attr format="dimension" name="SK_textLineSpaceVertical"/>
+        
+
+    </declare-styleable></configuration></mergedItems></merger>
